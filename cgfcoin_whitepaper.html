@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<title>CGF COIN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  body,
+  h1 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .bgimg {
+    /* The image used */
+    background-image: url("./coming_soon.jpg");
+
+    /* Full height */
+    min-height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 100px;
+    text-align: center;
+  }
+</style>
+
+<body>
+  <div class="bgimg w3-display-container w3-animate-opacity"></div>
+  <div class="w3-display-middle bg-text">
+    <h1 class="w3-display-topcenter w3-padding-large w3-text-white w3-animate-top" style="font-size: 50px;">CGF COIN</h1>
+    <h2 class="w3-jumbo w3-animate-opacity">COMING SOON</h2>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-xlarge w3-center">Whitepaper</p>
+    <a class="w3-button w3-large" href="./CGF_Whitepaper_en.pdf" download="CGF_Whitepaper_en">DownLoad</a>
+  </div>
+</body>
+
+</html>
