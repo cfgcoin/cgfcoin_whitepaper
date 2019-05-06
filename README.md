@@ -6,4 +6,4 @@ https://cfgcoin.github.io/cgfcoin_whitepaper/
 
 or
 
-https://www.cgfcoin.com
+https://www.cgfcoin.org
