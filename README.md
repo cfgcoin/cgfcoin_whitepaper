@@ -1,2 +1,3 @@
-# whitepaper---knights
+# cgfcoin--- templated by knights
+
 haha
