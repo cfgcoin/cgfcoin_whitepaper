@@ -48,7 +48,13 @@ section {
 }
 
 .container {
-	margin: 0 10%;
+	width: 80%;
+	margin: 1% 10%;
+	align-items: center;
+	/* text-align: center; */
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img {
@@ -185,7 +191,7 @@ p{
 	text-align:center;
 	background:url(../imgs/backgrounds/bg-header.jpg) left top no-repeat;
 	background-size: cover;
-	padding: 280px 0;
+	padding: 15.5% 0;
 }
 .logo{
 	width:130px;
@@ -309,8 +315,9 @@ color: #fff;
 	list-style:none;
 }
 .main-nav li{
-	display:inline;
-	margin:0 1px;
+	display: inline;
+	margin: 0 10px;
+	vertical-align: middle;
 }
 .main-nav li a{
 	display:inline-block;
@@ -332,6 +339,9 @@ color: #fff;
 
 .small-logo{ 
 	padding:0 32px;
+	font-size: 60px;
+	color: darkblue;
+	height: 100%;
 }
 
 .main-section.coin{
@@ -602,7 +612,6 @@ border: 2px solid #fff;
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:993px;
 	margin:0 auto;
 }
 .team-leader-box{
